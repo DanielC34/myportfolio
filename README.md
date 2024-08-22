@@ -1,4 +1,4 @@
-# This is my react portfolio template
+# This is my personal portfolio, showcasing my projects and experience as a front-end developer
 
 ## Technologies used
 
