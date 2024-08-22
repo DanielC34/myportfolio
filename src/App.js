@@ -6,8 +6,8 @@ import Footer from './components/footer';
 import Navbar from './components/navbar';
 // import Preloader from './components/preloader';
 import About from './pages/about';
-import Blogs from './pages/blogs';
-import BlogsInfo from './pages/blogsInfo';
+import School from './pages/school.js';
+import Education from './pages/education.js';
 import Experience from './pages/experience';
 import Home from './pages/home';
 import Projects from './pages/projects';
@@ -36,14 +36,14 @@ function App() {
               <Home></Home>
               <Experience></Experience>
               <Projects></Projects>
-              <Blogs></Blogs>
+              <School></School>
               <Skills></Skills>
               <About></About>
               <Footer></Footer>
             </>
           }
         ></Route>
-        <Route path="/blogs-info/:name" element={<BlogsInfo></BlogsInfo>}></Route>
+        <Route path="/blogs-info/:name" element={<Education></Education>}></Route>
       </Routes>
     </>
   );

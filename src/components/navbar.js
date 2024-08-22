@@ -37,8 +37,8 @@ export default function Navbar() {
         <a onClick={closeMobileNav} href="#projects" className="tab-button">
           Projects
         </a>
-        <a onClick={closeMobileNav} href="#blogs" className="tab-button">
-          Blogs
+        <a onClick={closeMobileNav} href="#education" className="tab-button">
+          Education
         </a>
         <a onClick={closeMobileNav} href="#skills" className="tab-button">
           Skills
