@@ -4,7 +4,7 @@ import { getDriveUrlById } from '../utils';
 export default function About() {
   return (
     <div className=" mx-auto max-w-6xl p-5 py-8 md:py-20" id="about">
-      <div className="mb-8 md:mb-16 pb-4 text-6xl font-medium text-gray-300 md:text-left md:text-7xl">
+      <div className="mb-8 pb-4 text-6xl font-medium text-red-600 md:mb-16 md:text-left md:text-7xl">
         About Me
       </div>
 
@@ -18,16 +18,16 @@ export default function About() {
         </div>
         <div className="basis-2/3 space-y-4">
           <span className="text-xl text-gray-500">Hi, I am </span>
-          <div className="text-4xl font-bold text-cyan-500">Vedant Daigavane</div>
-          <div className="text-xl font-semibold text-gray-500">Passionate Coder & Trader</div>
-          <div className="text-justify font-light text-gray-400">
-            I am a highly enthusiastic and competitive person who enjoys being around individuals
-            who challenge my limits, and I, in turn, strive to push them as well. I have a passion
-            for acquiring new skills and sharing my knowledge. Taking on complex challenges is a
-            personal passion of mine. I prefer not to adhere to a single technique for an extended
-            period and instead proactively seek alternative approaches to tasks. I strongly believe
-            that being a jack of all trades and master of none is often better than being a master
-            of one.
+          <div className="text-4xl font-bold text-red-600">Daniel Chanda</div>
+          <div className="text-xl font-semibold text-gray-500">Passionate Coder</div>
+          <div className="text-black-400 text-justify font-light">
+            As a recent graduate with a focus on frontend web development, I am passionate about
+            creating dynamic and engaging user experiences. My enthusiasm for learning drives me to
+            explore new technologies and techniques, ensuring I stay at the forefront of the field.
+            I thrive on tackling complex challenges and finding innovative solutions to design and
+            development problems. Rather than sticking to a single approach, I embrace versatility
+            and adaptability, believing that a broad skill set is crucial for delivering exceptional
+            and user-centric web applications.
           </div>
         </div>
       </div>
@@ -68,18 +68,17 @@ export default function About() {
 const social = [
   {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg',
-    link: 'https://www.linkedin.com/in/vedant-daigavane-25785315a/',
+    link: 'https://www.linkedin.com/in/daniel-chanda-743071235/',
+    alt: "Linkedin"
   },
   {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-    link: 'https://github.com/daigavane70',
-  },
-  {
-    icon: 'https://cdn-icons-png.flaticon.com/512/1384/1384063.png',
-    link: 'https://www.instagram.com/vedant_daigavane/',
+    link: 'https://github.com/DanielC34',
+    alt: "Github"
   },
   {
     icon: 'https://cdn-icons-png.flaticon.com/512/732/732200.png',
-    link: 'mailto: daigavane70@gmail.com',
+    link: 'mailto: danielchanda41@gmail.com',
+    alt: "Email"
   },
 ];
