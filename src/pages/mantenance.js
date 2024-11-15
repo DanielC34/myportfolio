@@ -1,6 +1,5 @@
 import React from 'react';
-import './maintenance.css';
 
 export default function Maintenance() {
-  return <div className="maintenance">404 | mantenance</div>;
+  return <div className="text-black flex justify-center items-center h-[80vh] text-sm font-light">404 | Whoops!! Page not Found</div>;
 }
