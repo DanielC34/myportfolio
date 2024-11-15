@@ -1,5 +1,6 @@
 import React from 'react';
 import Comtech from '../images/comtech-img.png';
+import Educore from '../images/EducoreServices.png'
 
 export default function Experience() {
   return (
@@ -59,5 +60,19 @@ const experiences = [
     date: 'Jul 2023 - Sep 2023',
     img: Comtech,
     companyUrl: 'http://www.comtechmax.com/',
+  },
+  {
+    position: 'IT Intern',
+    location: 'Solwezi, Zambia',
+    company: 'Educore Services Zambia Ltd',
+    details: [
+      "Assisting with data entry, backups, and management of student and staff information in the school's databases.",
+      'Ensuring that all data is securely stored and accessible when needed.',
+      'Maintaining and managing the school’s network and ensuring a smooth IT infrastructure',
+      'Providing technical support to students, teachers, and staff for any software-related issues.',
+    ],
+    date: 'Oct 2024 - Now',
+    img: Educore,
+    companyUrl: 'https://www.educoreservices.com/',
   },
 ];
