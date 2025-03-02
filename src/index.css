@@ -9,6 +9,10 @@ body {
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   @keyframes loading {
     0% {
@@ -56,5 +60,16 @@ body {
 
   .visible {
     visibility: visible;
+  }
+
+  .reveal {
+    opacity: 0;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    transform: translateY(20px);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
