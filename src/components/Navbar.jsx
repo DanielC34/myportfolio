@@ -50,6 +50,12 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               About
             </a>
             <a
+              href="#projects"
+              className="text-white hover:text-red-500 transition-colors"
+            >
+              Projects
+            </a>
+            <a
               href="#education"
               className="text-white hover:text-red-500 transition-colors"
             >
@@ -60,12 +66,6 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-white hover:text-red-500 transition-colors"
             >
               Experience
-            </a>
-            <a
-              href="#projects"
-              className="text-white hover:text-red-500 transition-colors"
-            >
-              Projects
             </a>
             <a
               href="#contact"
