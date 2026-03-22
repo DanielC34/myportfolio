@@ -38,13 +38,13 @@ const About = () => {
           {/*Small intro about myself along with both frontend and backend skills*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I'm a full-stack web developer with a passion for creating
-              beautiful and functional websites. My goal is to provide value to
-              businesses and individuals by creating high-quality web
-              applications that meet their needs.
+              I'm a Full-Stack Developer with a focus on building scalable,
+              user-centric applications using TypeScript, React, and Node.js.
+              With experience in early-stage development and performance
+              optimization, I thrive in fast-paced environments where I can take
+              ownership of features from conception to deployment.
             </p>
 
-            {/* */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">Frontend</h3>
@@ -77,7 +77,16 @@ const About = () => {
             </div>
           </div>
 
-          {/*Education*/}
+          <div className="mt-8 rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4">What I'm Looking For</h3>
+            <p className="text-gray-300">
+              I'm looking for roles at growth-stage startups where I can
+              contribute to core product development and take ownership of
+              technical challenges. I'm particularly interested in teams that
+              value clean code, rapid iteration, and a strong engineering
+              culture.
+            </p>
+          </div>
         </div>
       </RevealOnScroll>
     </section>

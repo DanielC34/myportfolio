@@ -17,9 +17,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:bg-red-500/10 hover:shadow-[0_2px_rgba(255, 0, 0, 0.2)]">
             <h3 className="font-bold text-xl mb-2">Chat Application</h3>
-            <p>
-              Built a real-time chat platform powered by WebSockets for seamless
-              live messaging.
+             <p className="text-gray-400 mb-4">
+              Developed a high-concurrency real-time messaging platform using
+              WebSockets and Node.js. Optimized state management with Zustand
+              for fluid UI updates and implemented a secure backend
+              architecture with MongoDB.
             </p>
             <div className="flex flex-wrap gap-2">
               {[
@@ -81,8 +83,11 @@ const Projects = () => {
             <h3 className="font-bold text-xl mb-2">
               FilmVault - Movie watchlist application
             </h3>
-            <p>
-              Built a movie watchlist application and utilized the TMDB API to render the movie and series data.
+             <p className="text-gray-400 mb-4">
+              Architected a responsive movie exploration engine integrating the
+              TMDB API. Focused on performance optimization through efficient
+              data fetching and persistent client-side state, delivering a
+              seamless user experience.
             </p>
             <div className="flex flex-wrap gap-2">
               {[

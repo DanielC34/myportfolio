@@ -17,6 +17,35 @@ const WorkExperience = () => {
             </h3>
             <ol className="list-decimal list-inside space-y-4 text-gray-300">
               <li>
+                <strong>Software Developer Intern</strong>
+                <p>First Quantum Minerals (Kansanshi Mine) (Oct 2025 - Present)</p>
+                <ul className="list-disc list-inside ml-4">
+                  <li>
+                    Developed and maintained full-stack web applications using
+                    TypeScript, React, and Node.js, supporting internal business
+                    workflows.
+                  </li>
+                  <li>
+                    Designed and implemented RESTful APIs to handle data
+                    processing and system integration across services.
+                  </li>
+                  <li>
+                    Built and worked with asynchronous and event-driven systems,
+                    improving reliability and responsiveness of data flows.
+                  </li>
+                  <li>
+                    Integrated cloud-based messaging services (Azure Service
+                    Bus) to support scalable and decoupled communication between
+                    components.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to understand
+                    requirements, troubleshoot issues, and deliver practical,
+                    user-focused solutions.
+                  </li>
+                </ul>
+              </li>
+              <li>
                 <strong>Front-end Developer Intern</strong>
                 <p>Comtech KKTC (Jul 2023 - Sep 2023)</p>
                 <ul className="list-disc list-inside ml-4">
@@ -46,7 +75,7 @@ const WorkExperience = () => {
                   <li>Provided technical support to clients and staff</li>
                   <li>
                     Assisted in troubleshooting hardware and software issues
-                  </li>
+                    </li>
                   <li>Maintained and updated IT documentation</li>
                 </ul>
               </li>

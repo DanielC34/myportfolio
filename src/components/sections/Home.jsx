@@ -15,7 +15,7 @@ const Home = () => {
           </h1>
 
           <h2 className="text-lg md:text-2xl mb-8 max-w-lg mx-auto text-gray-200">
-            Software Developer
+            Full-Stack Developer | TypeScript • Node.js • React
           </h2>
 
           <div className="justify-center flex space-x-4">
