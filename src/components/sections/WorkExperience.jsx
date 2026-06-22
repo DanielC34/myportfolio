@@ -32,10 +32,17 @@ const experiences = [
       "Developed and maintained full-stack web applications using TypeScript, React, and Node.js, supporting internal business workflows.",
       "Designed and implemented RESTful APIs to handle data processing and system integration across services.",
       "Built and worked with asynchronous and event-driven systems, improving reliability and responsiveness of data flows.",
-      "Integrated cloud-based messaging services (Azure Service Bus) to support scalable and decoupled communication between components.",
+      "Integrated cloud-based messaging services (Kafka) to support scalable and decoupled communication between components.",
       "Collaborated with cross-functional teams to understand requirements, troubleshoot issues, and deliver practical, user-focused solutions.",
     ],
-    skills: ["TypeScript", "React", "Node.js", "REST APIs", "Azure Service Bus", "Event-Driven Systems"],
+    skills: [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "REST APIs",
+      "Kafka",
+      "Event-Driven Systems",
+    ],
   },
   {
     title: "Frontend Developer Intern",
@@ -70,7 +77,9 @@ const WorkExperience = () => {
                 {/* Header */}
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-4">
                   <div>
-                    <h3 className="text-lg font-bold text-white">{exp.title}</h3>
+                    <h3 className="text-lg font-bold text-white">
+                      {exp.title}
+                    </h3>
                     <p className="text-red-400 font-medium">{exp.company}</p>
                     <p className="text-gray-500 text-sm">{exp.location}</p>
                   </div>

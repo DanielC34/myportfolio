@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 const skillCategories = [
@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     label: "Messaging & Cloud",
-    skills: ["Azure Service Bus", "RabbitMQ"],
+    skills: ["Kafka", "RabbitMQ"],
   },
   {
     label: "Databases",
@@ -34,10 +34,7 @@ const skillCategories = [
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="py-20"
-    >
+    <section id="about" className="py-20">
       <RevealOnScroll>
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-red-500 to-red-300 bg-clip-text text-transparent">
@@ -51,9 +48,8 @@ const About = () => {
               user-centric applications with TypeScript, React, and Node.js.
               With hands-on experience shipping software in production
               environments, I'm comfortable across the full stack — from
-              architecting APIs to building polished UIs. I thrive in
-              fast-paced teams where I can take real ownership and
-              contribute from day one.
+              architecting APIs to building polished UIs. I thrive in fast-paced
+              teams where I can take real ownership and contribute from day one.
             </p>
           </div>
 
@@ -62,7 +58,10 @@ const About = () => {
             <h3 className="text-xl font-bold mb-6">Skills</h3>
             <div className="space-y-4">
               {skillCategories.map(({ label, skills }) => (
-                <div key={label} className="flex flex-col sm:flex-row sm:items-start gap-2">
+                <div
+                  key={label}
+                  className="flex flex-col sm:flex-row sm:items-start gap-2"
+                >
                   <span className="text-red-400 font-medium text-sm w-44 shrink-0 pt-0.5">
                     {label}
                   </span>
