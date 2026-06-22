@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import MobileMenu from "./MobileMenu";
 import Home from "./sections/Home";
 import About from "./sections/About";
+import WorkExperience from "./sections/WorkExperience";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
-import Education from "./sections/Education";
 
 const MainPage = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -16,7 +16,7 @@ const MainPage = ({ menuOpen, setMenuOpen }) => {
       <div className="pt-16">
         <Home />
         <About />
-        <Education />
+        <WorkExperience />
         <Projects />
         <Contact />
       </div>
@@ -25,8 +25,8 @@ const MainPage = ({ menuOpen, setMenuOpen }) => {
 };
 
 MainPage.propTypes = {
-    menuOpen: PropTypes.bool.isRequired,
-    setMenuOpen: PropTypes.func.isRequired,
+  menuOpen: PropTypes.bool.isRequired,
+  setMenuOpen: PropTypes.func.isRequired,
 };
 
 export default MainPage;
